@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package biblioteca;
+package estrutura;
 
 /**
  *
@@ -25,9 +25,10 @@ public class Funcionario extends Pessoa{
     }
     public void cadastrarLivro(){
         
-    }
-    public void cadastrarAluno(){
         
+    }
+    public void cadastrarAluno(Aluno aluno){       
+       
     }
     public void aplicarMulta(){
         
