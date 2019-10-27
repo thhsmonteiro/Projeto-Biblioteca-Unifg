@@ -17,6 +17,15 @@ public abstract class Pessoa {
     private String endereco;
     private int contato;
     
+    public Pessoa(){
+        
+    }
+    public Pessoa(String nome,int cpf, int contato){
+        setNome(nome);
+        setCpf(cpf);       
+        setContato(contato);
+        
+    }
     public Pessoa(String nome,int cpf,String endereco, int contato){
         setNome(nome);
         setCpf(cpf);

@@ -13,10 +13,12 @@ public class Aluno extends Pessoa{
     
     private int matricula;
         
-    public Aluno(String nome, int cpf, String endereco, int contato, int matricula) {
-        super(nome, cpf, endereco, contato);
+    public Aluno(String nome, int cpf, String endereco,  int contato, int matricula) {
+        super(nome, cpf, contato);
         setMatricula(matricula);
     }
+
+    
     public void pegarLivro(){
         
     }
